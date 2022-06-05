@@ -48,22 +48,6 @@ def load_game():
 
 
 
-    # def choose_option():
-    #     option = int(input("Choose a game >> "))
-    #     while option == "1" and option == "2" and option == "3":
-    #         choose_difficulty()
-    #     else:
-    #         print("Invalid Option, please try again")
-    #
-    # choose_option()
-
-
-    # print("Please choose game difficulty from 1 to 5:")
-    # difficulty = int(input("Your difficulty >> "))
-    #print("Invalid Option, please try again")
-
-
-
 
 
 
