@@ -1,7 +1,5 @@
-from DevExpProject.Live import welcome, load_game
+from Live import Welcome
 
-name = input("Enter your name: ")
+Welcome.hello()
+Welcome.menu()
 
-welcome(name)
-
-load_game()
