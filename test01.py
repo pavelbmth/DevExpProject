@@ -1,7 +1,16 @@
 def hello() -> object:
     name = input("Enter your name >>> ")
-    print(f"Hello {name}!")
-    choose = input("Please choose the game >>> ")
+
+
+    try:
+        game = int(input("Please choose the game >>> "))
+
+    except:
+        game = int(input("Please enter number only >>> "))
+
+
+
+print(f"Hello {name}! Your game {game} and level {level}")
 
 
 def game_menu():
@@ -13,6 +22,9 @@ def game_menu():
 
     for games in game_list.values():
         print(games)
+
+
+
 
 game_menu()
 hello()
